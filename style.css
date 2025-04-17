@@ -1,0 +1,20 @@
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+:root {
+  --page-bg-color: #f5f5f7;
+  --gradient-start: #f7a2a1;
+  --gradient-end: #ffed00;
+  --avatar-border-color: #ffffff40;
+  --button-color: #5fc52e;
+  --button-color: #3eb489;
+  --field-border-color: #d5d5d7;
+  --field-radius: 4px;
+  --radius: 12px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
