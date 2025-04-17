@@ -10,14 +10,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-</head>
+</head>  
 <body>
-
-
-  <img src="images/avatar.jpg" alt="">
-  <h1>Nastavení účtu</h1>
-  <p>Stačí pár minut a tvůj chytrý náramek bude připraven.</p>
-
-
+  <div class="container">
+    <div class="left">
+      <img src="images/avatar.jpg" alt="">
+      <h1>Nastavení účtu</h1>
+      <p>Stačí pár minut a tvůj chytrý náramek bude připraven.</p>
+    </div>
+    <div class="right">
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Jméno" required>
+          <input type="text" placeholder="Příjmení" required>
+        </div>
+        <input type="date" placeholder="Datum narození" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="tel" placeholder="+420" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" required>
+            Souhlasím s <a href="#">obchodními podmínkami</a>
+          </label>
+        </div>
+        <button type="submit">Zaregistrovat</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
